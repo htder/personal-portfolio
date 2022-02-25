@@ -1,6 +1,8 @@
 html, body {
   height: 100%;
   width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 header {
@@ -123,4 +125,60 @@ main h2 {
   height: 8rem;
   padding: 1rem 3rem;
   font-size: 1.8rem;
+}
+
+footer {
+  display: flex;
+  padding: 5rem 0;
+}
+
+.footer-picture {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.footer-background {
+  width: 100%;
+  background-color: #ccc;
+}
+
+.footer-information h2 {
+  font-size: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.footer-information p {
+  font-size: 1.8rem;
+}
+
+.footer-text {
+  max-width: 750px;
+  padding-bottom: 2rem;
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.telephone img {
+  padding-right: 1rem;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.email img {
+  padding-right: 1rem;
+}
+
+.footer-icons img {
+  padding-right: 2rem;
 }
