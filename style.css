@@ -9,6 +9,10 @@ header {
   margin: 4rem 8rem;
 }
 
+main, footer {
+  margin: 4rem 8rem;
+}
+
 .image-container {
   position: relative;
   text-align: center;
