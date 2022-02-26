@@ -1,18 +1,23 @@
 html, body {
   height: 100%;
-  width: 100%;
-  max-width: 1920px;
-  margin: 0 auto;
 }
 
-header {
+header,
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
   display: flex;
   align-items: center;
   margin: 4rem 8rem;
+  max-width: 1920px;
 }
 
-main, footer {
+.main-container {
   margin: 4rem 8rem;
+  max-width: 1920px;
 }
 
 .image-container {
@@ -128,8 +133,16 @@ main h2 {
 }
 
 footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   display: flex;
-  padding: 5rem 0;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  margin: 4rem 8rem;
+  width: 1920px;
 }
 
 .footer-picture {
@@ -138,7 +151,6 @@ footer {
 }
 
 .footer-background {
-  width: 100%;
   background-color: #ccc;
 }
 
